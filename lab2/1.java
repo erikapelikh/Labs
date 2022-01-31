@@ -8,7 +8,7 @@ public class lab2 {
         long factorial = 1;
         for(int i = 1; i <= num; ++i)
         { factorial *= i;}
-        System.out.printf("Факториал %d = %d", num," = ",factorial);
+        System.out.printf("Факториал " +num+ " = " +factorial);
     }
 }
 
